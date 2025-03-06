@@ -1,5 +1,17 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## 将Web3 钱包 React SPA项目迁移到NextJS中 
+主要作用场景
+首屏优化
+服务端渲染 SSR 动态SEO 
+
+### 钱包相关的依赖库 
+"@ethersproject/contracts": "^5.8.0",
+    "@ethersproject/units": "^5.8.0",
+    "@web3-react/core": "^8.2.3",
+    "@web3-react/metamask": "^8.2.4",
+    
+
 ## Getting Started
 
 First, run the development server:

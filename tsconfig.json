@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
+    "noImplicitAny": false,
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -19,7 +20,39 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      // 页面组件路径别名
+      "@pages/*": [
+        "./app/pages/*"
+      ],
+      // 布局组件路径别名
+      "@layouts/*": [
+        "./app/layouts/*"
+      ],
+      // 钩子函数路径别名
+      "@hooks/*": [
+        "./app/hooks/*"
+      ],
+      // 工具函数路径别名
+      "@utils/*": [
+        "./app/utils/*"
+      ],
+      // UI组件路径别名
+      "@components/*": [
+        "./app/components/*"
+      ],
+      // 智能合约ABI文件路径别名
+      "@abis/*": [
+        "./app/abis/*"
+      ],
+      // Web3连接器路径别名
+      "@connectors/*": [
+        "./app/connectors/*"
+      ],
+      // 状态管理路径别名
+      "@states/*": [
+        "./app/states/*"
+      ]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
