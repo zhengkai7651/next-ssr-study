@@ -6,14 +6,14 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 服务端渲染 SSR 动态SEO 
 
 ### 钱包相关的依赖库 
+```bash
 @ethersproject/contracts": "^5.8.0
 @ethersproject/units": "^5.8.0
 @web3-react/core": "^8.2.3
 @web3-react/metamask": "^8.2.4
 
-<!-- 集成的连接钱包库 -->
 connectkit
-
+```
 ## Getting Started
 
 First, run the development server:
